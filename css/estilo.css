@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/05/2022, 11:02:32
+    Author     : sala305b
+*/
+body,td,th{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+body{
+    background-color: #FFF;
+    background-image: url(../img/back-paris.jpg);
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:link{
+    color: #14316B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: yellow;
+}
+
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+h1{
+    font-size: 50px;
+    color: blue;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 20px;
+    color: #FFF;
+    background: firebrick;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+h3{
+    font-size: 20px;
+    color: aqua;
+    font-weight: normal;
+    border-bottom: 2px solid violet;
+}
+
+#menu{
+    background: url(../img/logotipo.png)no-repeat;
+    text-align: right;
+    padding-top: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#menu p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#menu p a{
+    font-weight: normal;
+    color: gold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-top: 2px solid aquamarine;
+}
+
+#menu p a:hover{
+    background: fuchsia;
+}
+
+#titulos{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#conteudo{
+	text-align: justify;
+	margin-left: 240px;
+	padding-right: 15px;
+}
+
+#conteudo p img{
+	padding: 10px;
+	margin-right: 7px;
+	margin-bottom: 14px;
+	border: 1px solid red;
+}
+
+.contato-destaque{
+	border-bottom: 1px solid red;
+	padding-bottom: 7px;
+}
+
+table{
+	width: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+caption{
+	font-weight: bolder;
+	color: #ACE670;
+	background: #4D24A0;
+	padding: 7px;
+}
+
+th{
+	color: #276D60;
+	background: #B019C1;
+	text-align: left;
+	padding: 5px;
+}
+
+td{
+	background: #737A31;
+	padding: 5px;
+	border-bottom: 1px solid #287BB4;
+}
+
+#box{
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: bolder;
+	color: #00BDFF;
+	background: #DE787A url(img/back-box.gif);
+	padding: 30px 60px;
+	width: 480px;
+	border: thin dashed #730D9F;
+}
+
+.destaque{
+	font-size:14px;
+	color: #5CAA12;
+	background: #0F4F6B;
+	padding: 3px;
+}
+
+#conteudo ul li{
+	padding-bottom: 10px;
+	list-style: url(img/lista-losango.gif);
+}
+
+#conteudo ul{
+	padding-left: 25px;
+}
+
